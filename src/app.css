@@ -1,0 +1,65 @@
+.todo-App{
+  background-color: rgba(0, 0, 0, 0.5);  
+}
+.App, .App-link, .timer{
+  color: white;
+}
+.timer h4{
+  padding: 4px;
+}
+.App-header {
+  min-height: 10vh;  
+  font-size: calc(20px + 2vmin);
+  color: yellow;  
+  margin: 0;
+  padding: 30px 0;
+}
+.todo{  
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 2;
+  justify-content: space-around;
+  align-items: center;
+  color:#bf07ac;
+  background-color: rgb(247, 175, 175);  
+  border-radius: 5px;
+  list-style: none;
+  padding: 2%;
+}
+.App-link {
+  margin: 30px 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+.date, .form-input{
+  border-radius: 0 16px 0 16px;
+  background-color: rgba(234, 238, 9, 0.849);
+  border: none;
+  color: rgb(241, 19, 93);
+  text-align: center;  
+  height: 40px;
+  font-size: 18px;
+  margin: 10px 4px;
+  font-weight: bold;
+}
+.date::placeholder, .form-input::placeholder{
+  color: rgb(121, 23, 233);
+}
+.all-titles{
+  display: inline-flex;
+  width: 40%;
+}
+.list{
+  display: inline-block;
+  width: 60%;
+  font-size: 20px;
+}
+.faicons{
+  color: red;
+}
+@media (max-width: 900px) and (min-width: 100px) {
+  .list{
+    width: 100%;
+    padding: 0px;
+  }
+}
